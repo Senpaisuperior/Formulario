@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset=UTF-"8">
+  <title>formulario</title>
+</head>
+
+<body>
+  
+  <h1>formulario</h1>
+  <form action="enviar_email.php"
+    method="post">
+    
+    <strong><label for="nome">seu nome:</label></strong>
+    <input type="text" id="nome" name="nome" required><br><br>
+    
+    <strong><label for="email">seu email:</label></strong>
+    <input type="email:" id="email" name="email" required><br><br>
+    <h2>pergutas</h2><br>
+    
+    <fieldset>
+      pergunta:<br>
+      <legend><strong>me diga 3 coisa sobre você q eu ainda não sei.</strong></legend>
+      <textarea name="mensagem" rows="10" cols="40"></textarea>
+    </fieldset><br><br>
+    
+    <fieldset>
+      pergunta:<br>
+      <legend><strong>me diga como ta sendo a experiencia de um namoro a distancia(explique-se)</strong></legend>
+      <textarea name="mensagem" rows="10" cols="40"></textarea>
+    </fieldset><br><br>
+    
+    
+    <fieldset>
+      pergunta:<br>
+      <legend><strong>deixe aqui uma mensagem</strong></legend>
+      <textarea name="mensagem" rows="10" cols="40"></textarea>
+    </fieldset><br><br>
+    
+    <input type="submit" value="enviar">
+  </form>
+    
+    
+ 
+</body>
+</html>
